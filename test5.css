@@ -1,4 +1,119 @@
 <!-- Thanh Thuy -->
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+#menu nav.bg-dark
+{
+	background-color: #fff !important;
+}
+#menu .navbar
+{
+	padding: .5rem 5rem;
+}
+#menu .navbar-dark .navbar-nav .nav-link
+{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navbar-brand.navbar-brand-slogan
+{
+    color: #A0C730;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.navbar-dark .navbar-brand.navbar-brand-slogan:hover, #menu .nav-item.active .nav-link, #menu .navbar-dark .navbar-nav .nav-link:hover
+{
+	color: #A0C730;
+}
+div#collapsibleNavbar {
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+}
+.carousel-caption h3, .carousel-caption h4 {
+    background-color: #000;
+    text-align: right;
+    padding: 5px;
+    display: inline;
+    margin: 1px;
+    text-transform: uppercase;
+}
+.carousel-caption
+{
+    right: 10%;
+    top: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 100%;
+	padding: 0;
+}
+#demo .carousel-control-next, .carousel-control-prev
+{
+	width: 10%;
+}
+#menu .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.navbar-dark .navbar-toggler
+{
+	background-color: #000;
+}
+img#logo
+{
+	width: 55px;
+}
+@media only screen and ( min-width: 768px) and ( max-width: 980px )
+{
+	.navbar-brand.navbar-brand-slogan
+	{
+		margin-left: 50px; 
+	}
+	#menu .navbar
+	{
+	    padding: .5rem 1rem;
+	}
+}
+@media only screen and ( max-width: 767px)
+{
+	.navbar-brand.navbar-brand-slogan
+	{
+		margin-left: 0px; 
+	}
+	#menu .navbar
+	{
+	    padding: .5rem 1rem;
+	}
+	.navbar-brand
+	{
+		margin-right: 0px;
+	}
+	.navbar-brand.navbar-brand-slogan
+	{
+		font-size: 17px;
+	}
+	img#logo
+	{
+		width: 40px;
+	}
+	.carousel-caption
+	{
+		top: 1px;
+	}
+	.carousel-caption h3, .carousel-caption h4
+	{
+		font-size: 18px;
+	}
+}
 	<!-- Quang Viet -->
 	.ourteam h2{
 	width: 100%;
@@ -100,6 +215,28 @@
 transform: scale(1.2);
 }
 	<!-- Duy Tan -->
+	.media img{
+	width: 500px;
+	height: 400px;
+	margin-left: 15px;
+
+}
+.mt-0{
+	width: 250px;
+	height:20px; 
+}
+h4{
+	width: 100%;
+	height:50px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.col  i{
+	margin-left: 100px;
+}
+.media-body{
+	margin-left: 20px;
+}
 	<!-- Van Hien -->
 .pricing{
 	height: 100px;
@@ -111,7 +248,7 @@ transform: scale(1.2);
 }
 
 .card1 .buy{
-	margin-left: 150px;
+	margin-left: 100px;
 }
 
 .card1 .strong strong{
