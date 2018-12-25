@@ -1,4 +1,103 @@
 <!-- Thanh Thuy -->
 	<!-- Quang Viet -->
+	.ourteam h2{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 38px;
+	margin: 20px 0 15px 0px;
+	margin: 0 auto;
+}
+.ourteam .img{
+	display: block;
+	float: left;
+	margin: 0%;
+}
+.ourteam .img i{
+	text-align: center;
+	color: white;
+	margin-left: 5px;
+}
+.ourteam .img i:hover{
+	color: blue;
+}
+.ourteam .img.diff{
+	margin-left: 12%;
+}
+.ourteam .img img{
+	height: 300px;
+	width: 100%;
+}
+.ourteam .img{
+	transition: all 3s ease;	
+}
+.ourteam .img .icon{
+	position: absolute;
+	background: #59d827;
+	text-align: center;
+	width: 100%;
+	margin-top:-20px;
+	height: 30px;
+	left: 0px;
+}
+.ourteam .img h4{
+	position: absolute;
+	top: 270px;
+	background:#d6d5d4;
+	opacity: 0.5;
+	width: 100%;
+	margin-left: -20px;
+	height: 30px;
+}
+.ourteam .img em{
+	color: white;
+	position: absolute;
+	top: 270px;
+	left: 250px;
+}.ourteam .img  em{
+	color: white;
+	position: absolute;
+	top: 850px;
+}
+.ourteam .img .card{
+	border: none;
+}
+.ourteam .img .text{
+	display: none;
+	text-align: justify;
+}
+.row .col-lg-4{
+	position: relative;
+	margin-bottom: 1%;
+}
+.row .col-lg-4 .overflow{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.row .col-lg-4 img{
+	width: 100%;
+	height: 100%;
+	transition: all 3s ease;
+}
+.row .col-lg-4 img:hover{
+	transform: rotate(360deg);
+}
+.box{
+	position: absolute;
+	top: 45%;
+	z-index: 100;
+	background: green;
+	width: 94%;
+	transition-duration: 0.5s;
+}
+.box p{
+	color: white;
+	text-align: center;
+	margin-top: 10px;	
+}
+.box:hover{
+transform: scale(1.2);
+}
 	<!-- Duy Tan -->
 	<!-- Van Hien -->
