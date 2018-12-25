@@ -101,3 +101,108 @@ transform: scale(1.2);
 }
 	<!-- Duy Tan -->
 	<!-- Van Hien -->
+.pricing{
+	height: 100px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.parameter {
+}
+
+.card1 .buy{
+	margin-left: 150px;
+}
+
+.card1 .strong strong{
+	font-size: 40px;
+}
+.footer{
+	margin-top: 20px;
+	height: 400px;
+}
+.footer .sitemap h6{
+	padding-top: 20px;
+	padding-left: 40px;
+	color: white;
+}
+.footer .sitemap ul{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+
+.footer .sitemap ul li a{
+	display: block;
+	text-decoration: none;
+	color: silver;
+}
+.footer .sitemap ul li a:hover{
+	color: red;
+}
+.footer .twitter{
+	padding-top: 20px;
+}
+.footer .twitter i{
+	color: green;
+	padding-right: 10px;
+}
+.footer .twitter p{
+	color: silver;
+	padding-top: 10px;
+}
+.testimonal{
+	padding-top: 20px;
+}
+.testimonal blockquote{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-indent: 50px;
+	padding-top: 10px;
+}
+.testimonal blockquote::before{
+	content: "\201C";
+	font-family: arial;
+	font-size:8rem;
+	position: absolute;
+	left: -40px;
+	top: -10px;
+}
+.testimonal .pic img{
+	height: 100px;
+	width: 100px;
+}
+.testimonal footer{
+	position: absolute;
+	left: 130px;
+	top: 200px;
+	margin-left: 30px;
+}
+.contact{
+	margin-top: 20px;
+}
+.contact .but{
+	margin-left: 20px;
+}
+
+@media only screen and ( min-width: 768px) and ( max-width: 980px ){
+	.pricing{
+		height: 150px;
+	}
+	.parameter .card1 .buy{
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.pricing{
+		width: 100%;
+		height: 150px;
+	}
+	.parameter .card1 .buy{
+	margin-left: 190px;
+	}
+	.footer{
+		height: 700px;
+	}
+}
